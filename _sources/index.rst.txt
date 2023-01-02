@@ -6,4 +6,5 @@ Welcome to petro's documentation!
 
    ./tmp/test.md
    ./tmp2/test2.md
+   ./tmp2/test3.md
 
