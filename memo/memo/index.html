@@ -460,6 +460,7 @@
 
 
 <h1 id="often-forgotten-but-important">Often Forgotten But Important</h1>
+<p>忘れがちだが大切なこと</p>
 <h2 id="git-url">ローカル Git リポジトリのリモート URL 確認方法</h2>
 <ol>
 <li><code>git config --get remote.origin.url</code></li>
@@ -526,16 +527,18 @@ SyntaxError: invalid syntax
 シンボリックリンクを python2 に戻したらうまくいったが、そもそも python3 については <code>sudo yum -y install python3-pip</code> が正しい？（そしてまた python3 に設定）
 venv する前に、python3-pip がないとうまくいかないため、<code>sudo yum -y install python3-pip</code> をしてから venv 仮想環境を作成する。</p>
 <h2 id="sphinx_1">Sphinx がだめな理由</h2>
-<p>https://blog.goediy.com/?p=502#toc5
-https://gist.github.com/whosaysni/ab239546354f8d8f6bcec3f644294604
-http://dev.ariel-networks.com/wp/archives/4231/
-https://voluntas.medium.com/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E3%81%A8%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A8%E6%96%87%E6%A4%9C%E7%B4%A2-30cc38d7b1c3</p>
+<ul>
+<li>https://blog.goediy.com/?p=502#toc5</li>
+<li>https://gist.github.com/whosaysni/ab239546354f8d8f6bcec3f644294604</li>
+<li>http://dev.ariel-networks.com/wp/archives/4231/</li>
+<li>https://voluntas.medium.com/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E3%81%A8%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A8%E6%96%87%E6%A4%9C%E7%B4%A2-30cc38d7b1c3</li>
+</ul>
 <h2 id="mkdocs-material">mkdocs 及び日本語検索対応テーマ（material）モジュールをインストール</h2>
 <pre><code>pip install mkdocs mkdocs-material
 mkdocs -V
 </code></pre>
 <h2 id="_1">プロジェクト作成</h2>
-<p>「newDoc」というプロジェクト名でプロジェクトを作成しビルドする。</p>
+<p>"newDoc" というプロジェクト名でプロジェクトを作成しビルドする。</p>
 <pre><code>mkdocs new newDoc
 cd newDoc
 mkdocs build
