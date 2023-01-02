@@ -1,0 +1,9 @@
+Welcome to petro's documentation!
+=================================
+
+.. toctree::
+   :numbered:
+
+   ./tmp/test.md
+   ./tmp2/test2.md
+
